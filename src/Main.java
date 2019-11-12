@@ -7,5 +7,11 @@ public class Main {
             System.out.println();
         }
 
+        int[][] Mtable = new int [11][11];
+        for (int r=1; r<13; r++){
+            for (int c=1; c<13; c++)
+                System.out.print(r*c+"\t");
+                System.out.println();
+        }
     }
 }
